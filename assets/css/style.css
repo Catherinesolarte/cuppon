@@ -1,0 +1,117 @@
+/* Estilo del cuerpo */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #28a745;
+  background-color: #f8f9fa;
+  
+}
+
+/* Estilo de la navegación */
+.navbar {
+  margin-bottom: 20px;
+  font-weight: 500;
+  }
+
+.bg-fondonav {
+  background-color: #28a745 !important;
+}
+
+/* Estilo del texto */
+.text {
+  font-size: 19px;
+  color: #6c757d;
+}
+
+/* Estilo del precio barato */
+.barato {
+  color: #28a745;
+  font-weight: bold;
+}
+
+
+/* Estilo de las tarjetas */
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.presentacion {
+  font-size: 1rem;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+/* Estilo de la ubicación */
+.ubicacion {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+/* Estilo de la lista */
+.list-group-item {
+  border: 0;
+  padding: 0.75rem 1.25rem;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+/* Estilo del formulario */
+.Formulario {
+  width: 100%; /* Se ajusta al 100% del ancho de la página */
+  margin: auto;
+  background-color: #28a745;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-sizing: border-box; /* Incluye el padding y border en el ancho y alto total del elemento */
+  padding: 1rem; /* Agrega un poco de espacio interno para mejorar la apariencia */
+}
+
+
+.Formulario input[type="email"] {
+  margin-bottom: 1rem;
+}
+
+/* Estilo del botón del formulario */
+.Formulario button {
+  background-color: #f8f9fa;
+  border: none;
+  color: #212529;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: block; /* Hacer el botón un elemento de bloque */
+  margin: 0 auto; /* Centrar el botón horizontalmente */
+}
+
+.Formulario button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo del pie de página */
+.Foot {
+  text-align: center;
+  background-color:#fff;
+  padding: 1rem 0;
+  border-top: 1px solid #fff;
+  
+}
+
+.Foot img {
+  text-align: center;
+  display: block;
+  margin: 0;auto 10px;
+  
+}
+
+@media (max-width: 576px) {
+  .productos1,
+  .productos2, 
+    margin: 0;
+  }
